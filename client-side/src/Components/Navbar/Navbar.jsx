@@ -16,11 +16,11 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 const pages = [ { to:'Home', element:'Home'},
                  {to:'Service', element:'Service'},
-                 {to:'Gallery',element:'Gallery'},
+                 {to:'HowWeWork',element:'How We Work'},
                  {to:'Testimony', element:'Testimony'},
                  {to:'Contact', element: 'Contact Us'}
                 ];
-const settings = ['About', 'Service', 'Gallery','Pricing', 'Contact Us'];;
+const settings = ['About', 'Service', 'HowWeWork','Pricing', 'Contact Us'];;
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

@@ -46,6 +46,16 @@
     width:25%
 }.service-box{
     padding: 80px;
+}#HowWeWork{
+    height: 700px;
+    background-image: url('../utils/imgs/livingbg.png') ;
+    position: relative;
+}.layer{
+    height: 700px;
+    width: 100%;
+    background-color: lightgray;
+    opacity: 50%;
+    top:0
 }
 
 @media screen and (max-width: 600px) {
