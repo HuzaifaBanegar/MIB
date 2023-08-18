@@ -5,12 +5,14 @@ import { Home} from './Pages/Home';
 import { Routes, Route } from 'react-router-dom';
 import { Testimony } from './Pages/Testimony';
 import ResponsiveAppBar from './Components/Navbar/Navbar'
+import { Service } from './Pages/Service';
 function App() {
   return (
     <div className="App">
       <ResponsiveAppBar/>
-     <Home/>
-     <Testimony/>
+      <Home/>
+      <Service/>
+      <Testimony/>
     </div>
   );
 }

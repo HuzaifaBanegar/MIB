@@ -14,6 +14,39 @@
     width:90%;
     height:1000px
 }
+#Service{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.serviceimg{
+    width: 40%;
+}
+.description{
+    width: 30%;
+    padding:10px;
+    display: block;
+    margin: auto 0;
+}.head1{
+    margin-top: 30px;
+    margin: 10px auto;
+}.desc1{
+    font-size: 20px;
+}.service-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 30px auto;
+
+}.service-papers{
+    display:flex;
+    padding:10px 5px;
+    flex-direction:column;
+    gap:10px;
+    width:25%
+}.service-box{
+    padding: 80px;
+}
 
 @media screen and (max-width: 600px) {
     .bannerdiv{
@@ -23,8 +56,39 @@
         flex-direction: row;
     }
     .imagesDiv{
-        width:100%;
+        width:95%;
         height:90%
+    }#Service{
+        width: 95%;
+        flex-direction: column;
+        padding: 2px;
+        margin: 10px auto
+
+    }.serviceimg{
+        width: 100%;
+        margin: 0 auto;
+    }.description{
+        width: 95%;
+        margin: 0 auto;
+    }.head1{
+        font-size: 18px;
+    }.desc1{
+        font-size: 14px;
+    }.service-icons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 95%;  
+    }
+    .service-papers{
+        display:flex;
+        padding:5px 2px;
+        flex-direction:column;
+        gap:2px;
+        width:95%;
+        margin:0px auto
+    }.service-box{
+        padding: 2px;
     }
 
 }
