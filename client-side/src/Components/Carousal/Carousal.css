@@ -1,0 +1,23 @@
+#banner_img{
+    height: 1000px;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 15px;
+    }
+    #banner_img{
+        height: 200px;
+    }
+
+}
+
+/* .title{
+    width: 40%;
+    align-items: center;
+    height: 480px;
+}
+.title h1{
+    margin-top: 25%;
+} */
