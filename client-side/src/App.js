@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Home} from './Pages/Home';
+import { Routes, Route } from 'react-router-dom';
+import { Testimony } from './Pages/Testimony';
+import ResponsiveAppBar from './Components/Navbar/Navbar'
+import { Service } from './Pages/Service';
+import { HowWeWork } from './Pages/Howwework';
+import { AestheticDiv } from './Pages/AestheticDiv';
+import { Contact } from './Pages/Contact';
+import { Footer } from './Pages/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResponsiveAppBar/>
+      <Home/>
+      <Service/>
+      <HowWeWork/>
+      <Testimony/>
+      <AestheticDiv/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+
+
