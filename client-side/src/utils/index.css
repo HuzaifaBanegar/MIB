@@ -57,6 +57,22 @@
     opacity: 50%;
     top:0
 }
+#Contact{
+    height: 700px;
+    background-image: url('../utils/imgs/engineers.png') ;
+    position: relative; 
+    padding-top: 20px;
+}
+.contactPaper{
+    position: absolute;
+    width: 400px; 
+    top:20%;
+    background: #000;
+    right: 20%;
+    border-radius:25px ;
+    padding: 10px;
+    align-items: center;
+}
 
 @media screen and (max-width: 600px) {
     .bannerdiv{

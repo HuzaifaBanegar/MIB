@@ -8,6 +8,8 @@ import ResponsiveAppBar from './Components/Navbar/Navbar'
 import { Service } from './Pages/Service';
 import { HowWeWork } from './Pages/Howwework';
 import { AestheticDiv } from './Pages/AestheticDiv';
+import { Contact } from './Pages/Contact';
+import { Footer } from './Pages/Footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
       <HowWeWork/>
       <Testimony/>
       <AestheticDiv/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

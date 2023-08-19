@@ -42,7 +42,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar sx={{background:'#4E443C' ,padding:'10px'}} position="static">
+    <AppBar sx={{background:'#4E443C' ,padding:'10px'}} position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} ><MibLogo /></Box>
