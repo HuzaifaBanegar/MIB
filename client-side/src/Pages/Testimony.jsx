@@ -6,7 +6,7 @@ export const Testimony=()=>{
             <p style={{color:'#F6862A'}}>Testimonials</p>
             <h2  style={{color:'#F6862A'}}>- What our clients has to say -</h2>
             <Box width={{xs:'100%',md:'80%'}} sx={{overflowX:{xs:'scroll',md:'visible'}, alignContent:'center',display:'flex',justifyContent:"space-between", gap:'40px', margin:'40px auto'}}>
-                <Paper sx={{position:"relative", minWidth:'200px', p:'15px'}}>
+                <Paper sx={{position:"relative", minWidth:'200px', maxWidth:'350px', p:'15px'}}>
                 <Quotes style={{height:'40px', width:'40px', position:'absolute', left:'2'}}/>  
                 <Avatar alt="Rameez Shaikh" src="/static/images/avatar/1.jpg" sx={{margin:'20px auto'}}/>
                     <h1>Rameez Shaikh</h1>
@@ -14,7 +14,7 @@ export const Testimony=()=>{
                     into a beautiful and functional
                     space that I absolutely love!"</p>
                 </Paper>
-                <Paper sx={{position:"relative", minWidth:'200px',p:'15px'}}>
+                <Paper sx={{position:"relative", minWidth:'200px',maxWidth:'350px',p:'15px'}}>
                 <Quotes style={{height:'40px', width:'40px', position:'absolute', left:'2'}}/>  
                 <Avatar alt="Suchita Samael" src="/static/images/avatar/1.jpg" sx={{margin:'20px auto'}}/>
                     <h1>Suchita Samael</h1>
@@ -23,7 +23,7 @@ export const Testimony=()=>{
                     expertise that this firm brought to
                     my project."</p>
                 </Paper>
-                <Paper sx={{position:"relative",minWidth:'200px',p:'15px'}}>
+                <Paper sx={{position:"relative",minWidth:'200px',maxWidth:'350px',p:'15px'}}>
                 <Quotes style={{height:'40px', width:'40px', position:'absolute', left:'2'}}/>  
                 <Avatar alt="Ramesh Jairaj" src="/static/images/avatar/1.jpg" sx={{margin:'20px auto'}}/>
                     <h1>Ramesh Jairaj</h1>

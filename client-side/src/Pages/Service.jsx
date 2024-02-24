@@ -7,12 +7,13 @@ import {ReactComponent as Exterior} from '../utils/svgs/exterior.svg'
 export const Service=()=>{
     return (
         <Box className="service-box" sx={{background:'white'}}>
+         <h1 className="head1"  marginX={'auto'}>Service Provided By Us</h1>
             <div id="Service">
                 <Box className='serviceimg'>
                     <img style={{width: '100%'}} src={ServiceImg} alt="Interior"/>
                 </Box>
                 <Box className="description" >
-                    <h2 className="head1"  marginX={'auto'}>Service Provided By Us</h2>
+                   
                     <Box sx={{display:'flex', gap:'30px'}}>
                     <div style={{textAlign:'left', width:'50%'}}>
                     <h6>Residential Design</h6>
