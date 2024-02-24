@@ -10,10 +10,43 @@ export const Home=()=>{
     return (
         <Box id="Home" className="bannerdiv" >
             <Box className='iconsdiv' >
-                <Insta/>
-                <Linkdin/>
-                <Email/>
-                <Whatsapp/>
+                <Box
+                 sx={{
+                    '&:hover': {
+                    transform: 'scale(1.25)',
+                    transition: 'transform 0.3s ease-in-out', // Smooth transition
+                    }
+                    }}>
+
+                    <Insta/>
+                </Box>
+                <Box
+                 sx={{
+                    '&:hover': {
+                    transform: 'scale(1.25)',
+                    transition: 'transform 0.3s ease-in-out', // Smooth transition
+                    }
+                    }}>
+                    <Linkdin/>
+                </Box>
+                <Box
+                 sx={{
+                    '&:hover': {
+                    transform: 'scale(1.25)',
+                    transition: 'transform 0.3s ease-in-out', // Smooth transition
+                    }
+                    }}>
+                    <Email/>
+                </Box>
+                <Box
+                 sx={{
+                    '&:hover': {
+                    transform: 'scale(1.25)',
+                    transition: 'transform 0.3s ease-in-out', // Smooth transition
+                    }
+                    }}>
+                    <Whatsapp/>
+                </Box>
             </Box>
             <Box marginX={'auto'} className='imagesDiv' >
                 <UncontrolledExample/>  

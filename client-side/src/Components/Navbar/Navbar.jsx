@@ -42,7 +42,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar sx={{background:'#4E443C' ,padding:'10px'}} position="sticky">
+    <AppBar sx={{background:'#3b342eff' ,padding:'10px'}} position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} ><MibLogo /></Box>
@@ -123,7 +123,11 @@ function ResponsiveAppBar() {
               <Button
                 key={e.element}
                 onClick={handleCloseNavMenu}
-                sx={{cursor:'pointer', my: 2, color: 'white', display: 'block', width:'80%', fontSize:'20px' }}
+                sx={{cursor:'pointer', my: 2, color: 'white', display: 'block', width:'80%', fontSize:'20px',
+                '&:hover': {
+                  backgroundColor: 'transparent', // No animation
+                  color: '#F8780F', // Change color on hover
+                } }}
               >
                 <Link to={e.to} smooth={true} duration={500}>{e.element}</Link>
               </Button>
