@@ -6,7 +6,7 @@ import {ReactComponent as Email} from '../utils/svgs/email.svg';
 import {ReactComponent as Whatsapp} from '../utils/svgs/whatsapp.svg'
 export const Footer=()=>{
     return (
-        <Box sx={{background:'#3A332D', p:'80px 80px',color:'white', display:'flex', justifyContent:'space-evenly'}}>
+        <Box sx={{background:'#3A332D', p:'80px 80px',color:'white', display:'flex',flexWrap:'wrap', justifyContent:'space-evenly'}}>
             <Box sx={{display:'flex', flexDirection:'column'}}>
                 <MIBLogo/>
                 <Typography variant="h3" sx={{color:'#F8780F', marginTop:'20px'}}>MIB Design Studio</Typography>

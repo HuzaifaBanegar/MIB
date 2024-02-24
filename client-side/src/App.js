@@ -19,8 +19,8 @@ function App() {
       <HowWeWork/>
       <Testimony/>
       {/* <AestheticDiv/> */}
-      {/* <Contact/> */}
-      {/* <Footer/> */}
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
