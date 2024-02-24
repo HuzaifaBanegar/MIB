@@ -1,5 +1,5 @@
 import '../utils/index.css'
-import { Box, Paper, Typography } from "@mui/material"
+import { Box, List, ListItem, Paper, Typography } from "@mui/material"
 import ServiceImg from '../utils/imgs/serviceimg.jpeg'
 import {ReactComponent as Interior} from '../utils/svgs/interior.svg'
 import {ReactComponent as Arch} from '../utils/svgs/arch.svg'
@@ -13,7 +13,26 @@ export const Service=()=>{
                 </Box>
                 <Box className="description" >
                     <h2 className="head1"  marginX={'auto'}>Service Provided By Us</h2>
-                    <p className="desc1" style={{textAlign:'justify', marginTop:"3px"}}> With expertise in interior design, architecture, and exterior aesthetics, we transform spaces into captivating masterpieces. Our innovative designs harmonize beauty and practicality, crafting environments that inspire and elevate. Experience the art of architectural excellence with us.</p>
+                    <Box sx={{display:'flex', gap:'30px'}}>
+                    <div style={{textAlign:'left', width:'50%'}}>
+                    <h6>Residential Design</h6>
+                        <p> From new home construction to complete home
+                        renovations.</p>
+                        <p>✔️Full-service design</p>
+                        <p>✔️Space Planning</p>
+                        <p>✔️Custom furniture design</p>
+                    </div>
+                    <div style={{textAlign:'left', width:'50%'}}>
+                    <h6>Commerical Design</h6>
+                     <p> We specialize in creating inspiring work
+                        environments that drive productivity and
+                        engagement.</p>
+                        <p>✔️Office design</p>
+                        <p>✔️Retail Design</p>
+                        <p>✔️Hospitality</p>
+                    </div>
+                    </Box>
+                    
                 </Box>
             </div>
             <h2 className="head1"  marginX={'auto'}>Our Design Philosophy</h2>
