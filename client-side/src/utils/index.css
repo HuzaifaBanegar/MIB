@@ -23,10 +23,8 @@
     width: 40%;
 }
 .description{
-    width: 30%;
+    width: 50%;
     padding:10px;
-    display: block;
-    margin: auto 0;
 }.head1{
     margin-top: 30px;
     margin: 10px auto;
@@ -58,7 +56,7 @@
     top:0
 }
 #Contact{
-    background-color: #F8780F;
+    background-color: lightgray;
     padding: 30px;
 }
 .contactPaper{
@@ -92,7 +90,7 @@
         width: 100%;
         margin: 0 auto;
     }.description{
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }.head1{
         font-size: 18px;

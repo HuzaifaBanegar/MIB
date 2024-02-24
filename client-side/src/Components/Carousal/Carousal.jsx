@@ -38,7 +38,7 @@ export function UncontrolledExample() {
             />
     
             <Carousel.Caption>
-              <h1 style={{textShadow:'2px 2px 5px black'}}>Design your beautiful garden</h1>
+              <h1 style={{textShadow:'2px 2px 5px black'}}>Design your Professional Space</h1>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

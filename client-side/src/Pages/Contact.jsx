@@ -14,7 +14,7 @@ export const Contact=()=>{
                 <Box>
                     <img style={{height:'500px', width:'350px'}} src={HussainImg} alt="Hussain"/>
                     <h2>Hussain Banegar</h2>
-                    <h4>Principal Interior Designer</h4>
+                    <h4>Principal Architect</h4>
                 </Box>
                
                 <Box>

@@ -13,12 +13,12 @@ export const Service=()=>{
                     <img style={{width: '100%'}} src={ServiceImg} alt="Interior"/>
                 </Box>
                 <Box className="description" >
-                   
                     <Box sx={{display:'flex', gap:'30px'}}>
                     <div style={{textAlign:'left', width:'50%'}}>
                     <h6>Residential Design</h6>
                         <p> From new home construction to complete home
                         renovations.</p>
+                        <p>✔️3-D rendering</p>
                         <p>✔️Full-service design</p>
                         <p>✔️Space Planning</p>
                         <p>✔️Custom furniture design</p>
@@ -28,6 +28,7 @@ export const Service=()=>{
                      <p> We specialize in creating inspiring work
                         environments that drive productivity and
                         engagement.</p>
+                        <p>✔️3-D rendering</p>
                         <p>✔️Office design</p>
                         <p>✔️Retail Design</p>
                         <p>✔️Hospitality</p>
